@@ -1,36 +1,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ITFC Singular.live Assets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TownTV - Singular.live Assets</title>
   <style>
     body {
+      margin: 0;
       font-family: sans-serif;
       background: #111;
       color: #eee;
-      padding: 2em;
     }
-    h1 {
-      font-size: 2em;
-      margin-bottom: 1em;
-    }
-    a.button {
-      display: inline-block;
-      padding: 0.75em 1.25em;
-      margin: 0.5em 0;
+
+    header {
       background: #1c3a63;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: background 0.2s ease;
+      padding: 1em 2em;
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #0d1e35;
     }
-    a.button:hover {
+
+    header img {
+      height: 48px;
+      margin-right: 1em;
+    }
+
+    header h1 {
+      font-size: 1.5em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 0.9em;
+      color: #ccc;
+      margin: 0.25em 0 0 60px;
+    }
+
+    main {
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.75em 1.5em;
       background: #295a9d;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      width: fit-content;
+    }
+
+    .button:hover {
+      background: #3a78cf;
     }
   </style>
 </head>
 <body>
-  <h1>ITFC Singular.live Assets</h1>
-  <a class="button" href="backgrounds/">Backgrounds</a>
+
+    <header>
+      <img src="assets/TownTV-PrimaryLogo-FullColourBlue-Clipped.png" alt="TownTV Logo" />
+      <p>Singular.live video assets</p>
+    </header>
+
+  <main>
+    <a class="button" href="ff/">FF Backgrounds</a>
+    <a class="button" href="l3/">L3 Backgrounds</a>
+  </main>
+
 </body>
 </html>
